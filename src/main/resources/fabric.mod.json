@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "spitball",
+  "version": "${version}",
+  "name": "Spitball (Ollama client for minecraft servers)",
+  "description": "A serverside mod that allows connections to ollama servers for a local AI assistant for your players.",
+  "authors": ["IvvyDevMC"],
+  "contact": {},
+  "license": "Apache-2.0",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "de.ivvydevmc.SpitballLoader"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
